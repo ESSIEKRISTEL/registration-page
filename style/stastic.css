@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;
+    background: -moz-linear-gradient(rgb(193, 214, 165), rgb(3, 212, 240) , rgb(43, 43, 42) );
+    
+} 
+
+    
+
+.container{
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px 5px;
+    border: solid 2px ;
+}
+input{
+    width: 300px;
+    margin: 2px;
+    height: 35px;
+    /* border: none; */
+    
+
+}
+.button{
+    background: red;
+    color: white;
+    font-size: 20px;
+    
+}
